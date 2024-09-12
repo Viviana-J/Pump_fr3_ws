@@ -1,0 +1,8 @@
+prefix=/home/rishabh/Robot/Pump_fr3_ws/install
+
+Name: cobot_pump_ros
+Description: Description of cobot_pump_ros
+Version: 0.0.0
+Cflags: -I${prefix}/include -I/usr/include
+Libs: -L${prefix}/lib -lfranka_gripper /usr/lib/libfranka.so.0.13.3
+Requires: roscpp message_runtime control_msgs sensor_msgs xmlrpcpp std_msgs
