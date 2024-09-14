@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+cobot_pump_ros/CMakeFiles/cobot_pump_control.dir/rule:
+	cd /home/rishabh/Robot/Pump_fr3_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cobot_pump_ros/CMakeFiles/cobot_pump_control.dir/rule
+.PHONY : cobot_pump_ros/CMakeFiles/cobot_pump_control.dir/rule
+
+# Convenience name for target.
+cobot_pump_control: cobot_pump_ros/CMakeFiles/cobot_pump_control.dir/rule
+
+.PHONY : cobot_pump_control
+
+# fast build rule for target.
+cobot_pump_control/fast:
+	cd /home/rishabh/Robot/Pump_fr3_ws/build && $(MAKE) -f cobot_pump_ros/CMakeFiles/cobot_pump_control.dir/build.make cobot_pump_ros/CMakeFiles/cobot_pump_control.dir/build
+.PHONY : cobot_pump_control/fast
+
+# Convenience name for target.
 cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_py.dir/rule:
 	cd /home/rishabh/Robot/Pump_fr3_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_py.dir/rule
 .PHONY : cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_py.dir/rule
@@ -797,6 +812,33 @@ _cobot_pump_ros_generate_messages_check_deps_dropItem/fast:
 	cd /home/rishabh/Robot/Pump_fr3_ws/build && $(MAKE) -f cobot_pump_ros/CMakeFiles/_cobot_pump_ros_generate_messages_check_deps_dropItem.dir/build.make cobot_pump_ros/CMakeFiles/_cobot_pump_ros_generate_messages_check_deps_dropItem.dir/build
 .PHONY : _cobot_pump_ros_generate_messages_check_deps_dropItem/fast
 
+src/cobot_pump_control.o: src/cobot_pump_control.cpp.o
+
+.PHONY : src/cobot_pump_control.o
+
+# target to build an object file
+src/cobot_pump_control.cpp.o:
+	cd /home/rishabh/Robot/Pump_fr3_ws/build && $(MAKE) -f cobot_pump_ros/CMakeFiles/cobot_pump_control.dir/build.make cobot_pump_ros/CMakeFiles/cobot_pump_control.dir/src/cobot_pump_control.cpp.o
+.PHONY : src/cobot_pump_control.cpp.o
+
+src/cobot_pump_control.i: src/cobot_pump_control.cpp.i
+
+.PHONY : src/cobot_pump_control.i
+
+# target to preprocess a source file
+src/cobot_pump_control.cpp.i:
+	cd /home/rishabh/Robot/Pump_fr3_ws/build && $(MAKE) -f cobot_pump_ros/CMakeFiles/cobot_pump_control.dir/build.make cobot_pump_ros/CMakeFiles/cobot_pump_control.dir/src/cobot_pump_control.cpp.i
+.PHONY : src/cobot_pump_control.cpp.i
+
+src/cobot_pump_control.s: src/cobot_pump_control.cpp.s
+
+.PHONY : src/cobot_pump_control.s
+
+# target to generate assembly for a file
+src/cobot_pump_control.cpp.s:
+	cd /home/rishabh/Robot/Pump_fr3_ws/build && $(MAKE) -f cobot_pump_ros/CMakeFiles/cobot_pump_control.dir/build.make cobot_pump_ros/CMakeFiles/cobot_pump_control.dir/src/cobot_pump_control.cpp.s
+.PHONY : src/cobot_pump_control.cpp.s
+
 src/cobot_pump_node.o: src/cobot_pump_node.cpp.o
 
 .PHONY : src/cobot_pump_node.o
@@ -833,6 +875,7 @@ help:
 	@echo "... install/strip"
 	@echo "... install"
 	@echo "... edit_cache"
+	@echo "... cobot_pump_control"
 	@echo "... cobot_pump_ros_generate_messages_py"
 	@echo "... cobot_pump_ros_genlisp"
 	@echo "... cobot_pump_ros_gencpp"
@@ -879,6 +922,9 @@ help:
 	@echo "... cobot_pump_ros_generate_messages"
 	@echo "... cobot_pump_ros_generate_messages_lisp"
 	@echo "... _cobot_pump_ros_generate_messages_check_deps_dropItem"
+	@echo "... src/cobot_pump_control.o"
+	@echo "... src/cobot_pump_control.i"
+	@echo "... src/cobot_pump_control.s"
 	@echo "... src/cobot_pump_node.o"
 	@echo "... src/cobot_pump_node.i"
 	@echo "... src/cobot_pump_node.s"

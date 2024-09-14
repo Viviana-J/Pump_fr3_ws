@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/src/cobot_control.cpp
+iostream
+-
+chrono
+-
+thread
+-
+franka/vacuum_gripper.h
+-
+franka/exception.h
+-
+

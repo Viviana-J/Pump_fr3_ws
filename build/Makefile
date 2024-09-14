@@ -1585,6 +1585,19 @@ _run_tests_geometric_shapes_gtest_test_shapes/fast:
 .PHONY : _run_tests_geometric_shapes_gtest_test_shapes/fast
 
 #=============================================================================
+# Target rules for targets named cobot_pump_control
+
+# Build rule for target.
+cobot_pump_control: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cobot_pump_control
+.PHONY : cobot_pump_control
+
+# fast build rule for target.
+cobot_pump_control/fast:
+	$(MAKE) -f cobot_pump_ros/CMakeFiles/cobot_pump_control.dir/build.make cobot_pump_ros/CMakeFiles/cobot_pump_control.dir/build
+.PHONY : cobot_pump_control/fast
+
+#=============================================================================
 # Target rules for targets named cobot_pump_ros_generate_messages_py
 
 # Build rule for target.
@@ -13042,6 +13055,7 @@ help:
 	@echo "... run_tests_geometric_shapes_gtest_test_shapes"
 	@echo "... run_tests_geometric_shapes_gtest_test_bounding_sphere"
 	@echo "... _run_tests_geometric_shapes_gtest_test_shapes"
+	@echo "... cobot_pump_control"
 	@echo "... cobot_pump_ros_generate_messages_py"
 	@echo "... cobot_pump_ros_genlisp"
 	@echo "... cobot_pump_ros_gencpp"

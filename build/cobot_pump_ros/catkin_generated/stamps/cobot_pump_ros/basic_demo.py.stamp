@@ -10,7 +10,6 @@ def basic_demo():
     rospy.wait_for_service('startPump')
     start_pump = rospy.ServiceProxy('startPump', startPump)
     drop_item = rospy.ServiceProxy('dropItem', dropItem)
-    stop_pump = rospy.ServiceProxy('stopPump', stopPump)
     check_item_attached = rospy.ServiceProxy('checkItemAttached', checkItemAttached)
 
     try:
@@ -37,20 +36,14 @@ def basic_demo():
             time.sleep(3)
             response = check_item_attached()
             if(response.itemAttached):
+                # drop item 
                 print("item still attached")
+
+                time.sleep(3)
+                response = drop_item(timeout_ms)
+                print("dropping item now")
             else:
                 print("item lost")
-
-            # drop item 
-            response = drop_item(timeout_ms)
-            print("dropping item now")
-
-            # check item dropped
-            response = check_item_attached()
-            if(response.itemAttached == False):
-                print("item has been detached")
-            else:
-                print("ERROR: item has not been detached")
 
         else: 
             print("vacuum not established")
