@@ -58,6 +58,7 @@ cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_eus: /home/rishabh/Ro
 cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_eus: /home/rishabh/Robot/Pump_fr3_ws/devel/share/roseus/ros/cobot_pump_ros/srv/dropItem.l
 cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_eus: /home/rishabh/Robot/Pump_fr3_ws/devel/share/roseus/ros/cobot_pump_ros/srv/readState.l
 cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_eus: /home/rishabh/Robot/Pump_fr3_ws/devel/share/roseus/ros/cobot_pump_ros/srv/checkItemAttached.l
+cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_eus: /home/rishabh/Robot/Pump_fr3_ws/devel/share/roseus/ros/cobot_pump_ros/srv/hci_action_srv.l
 cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_eus: /home/rishabh/Robot/Pump_fr3_ws/devel/share/roseus/ros/cobot_pump_ros/manifest.l
 
 
@@ -86,8 +87,13 @@ cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_eus: /home/rishabh/Ro
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from cobot_pump_ros/checkItemAttached.srv"
 	cd /home/rishabh/Robot/Pump_fr3_ws/build/cobot_pump_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/checkItemAttached.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p cobot_pump_ros -o /home/rishabh/Robot/Pump_fr3_ws/devel/share/roseus/ros/cobot_pump_ros/srv
 
+/home/rishabh/Robot/Pump_fr3_ws/devel/share/roseus/ros/cobot_pump_ros/srv/hci_action_srv.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/rishabh/Robot/Pump_fr3_ws/devel/share/roseus/ros/cobot_pump_ros/srv/hci_action_srv.l: /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/hci_action_srv.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating EusLisp code from cobot_pump_ros/hci_action_srv.srv"
+	cd /home/rishabh/Robot/Pump_fr3_ws/build/cobot_pump_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/hci_action_srv.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p cobot_pump_ros -o /home/rishabh/Robot/Pump_fr3_ws/devel/share/roseus/ros/cobot_pump_ros/srv
+
 /home/rishabh/Robot/Pump_fr3_ws/devel/share/roseus/ros/cobot_pump_ros/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating EusLisp manifest code for cobot_pump_ros"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating EusLisp manifest code for cobot_pump_ros"
 	cd /home/rishabh/Robot/Pump_fr3_ws/build/cobot_pump_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/rishabh/Robot/Pump_fr3_ws/devel/share/roseus/ros/cobot_pump_ros cobot_pump_ros std_msgs
 
 cobot_pump_ros_generate_messages_eus: cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_eus
@@ -96,6 +102,7 @@ cobot_pump_ros_generate_messages_eus: /home/rishabh/Robot/Pump_fr3_ws/devel/shar
 cobot_pump_ros_generate_messages_eus: /home/rishabh/Robot/Pump_fr3_ws/devel/share/roseus/ros/cobot_pump_ros/srv/dropItem.l
 cobot_pump_ros_generate_messages_eus: /home/rishabh/Robot/Pump_fr3_ws/devel/share/roseus/ros/cobot_pump_ros/srv/readState.l
 cobot_pump_ros_generate_messages_eus: /home/rishabh/Robot/Pump_fr3_ws/devel/share/roseus/ros/cobot_pump_ros/srv/checkItemAttached.l
+cobot_pump_ros_generate_messages_eus: /home/rishabh/Robot/Pump_fr3_ws/devel/share/roseus/ros/cobot_pump_ros/srv/hci_action_srv.l
 cobot_pump_ros_generate_messages_eus: /home/rishabh/Robot/Pump_fr3_ws/devel/share/roseus/ros/cobot_pump_ros/manifest.l
 cobot_pump_ros_generate_messages_eus: cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_eus.dir/build.make
 

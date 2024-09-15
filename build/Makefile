@@ -1585,6 +1585,19 @@ _run_tests_geometric_shapes_gtest_test_shapes/fast:
 .PHONY : _run_tests_geometric_shapes_gtest_test_shapes/fast
 
 #=============================================================================
+# Target rules for targets named demo_fr3_control
+
+# Build rule for target.
+demo_fr3_control: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_fr3_control
+.PHONY : demo_fr3_control
+
+# fast build rule for target.
+demo_fr3_control/fast:
+	$(MAKE) -f cobot_pump_ros/CMakeFiles/demo_fr3_control.dir/build.make cobot_pump_ros/CMakeFiles/demo_fr3_control.dir/build
+.PHONY : demo_fr3_control/fast
+
+#=============================================================================
 # Target rules for targets named cobot_pump_control
 
 # Build rule for target.
@@ -1817,6 +1830,19 @@ rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
 rosgraph_msgs_generate_messages_cpp/fast:
 	$(MAKE) -f cobot_pump_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make cobot_pump_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named _cobot_pump_ros_generate_messages_check_deps_hci_action_srv
+
+# Build rule for target.
+_cobot_pump_ros_generate_messages_check_deps_hci_action_srv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _cobot_pump_ros_generate_messages_check_deps_hci_action_srv
+.PHONY : _cobot_pump_ros_generate_messages_check_deps_hci_action_srv
+
+# fast build rule for target.
+_cobot_pump_ros_generate_messages_check_deps_hci_action_srv/fast:
+	$(MAKE) -f cobot_pump_ros/CMakeFiles/_cobot_pump_ros_generate_messages_check_deps_hci_action_srv.dir/build.make cobot_pump_ros/CMakeFiles/_cobot_pump_ros_generate_messages_check_deps_hci_action_srv.dir/build
+.PHONY : _cobot_pump_ros_generate_messages_check_deps_hci_action_srv/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_nodejs
@@ -13055,6 +13081,7 @@ help:
 	@echo "... run_tests_geometric_shapes_gtest_test_shapes"
 	@echo "... run_tests_geometric_shapes_gtest_test_bounding_sphere"
 	@echo "... _run_tests_geometric_shapes_gtest_test_shapes"
+	@echo "... demo_fr3_control"
 	@echo "... cobot_pump_control"
 	@echo "... cobot_pump_ros_generate_messages_py"
 	@echo "... cobot_pump_ros_genlisp"
@@ -13073,6 +13100,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... cobot_pump_ros_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... _cobot_pump_ros_generate_messages_check_deps_hci_action_srv"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... roscpp_generate_messages_eus"

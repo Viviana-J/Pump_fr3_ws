@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+cobot_pump_ros/CMakeFiles/demo_fr3_control.dir/rule:
+	cd /home/rishabh/Robot/Pump_fr3_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cobot_pump_ros/CMakeFiles/demo_fr3_control.dir/rule
+.PHONY : cobot_pump_ros/CMakeFiles/demo_fr3_control.dir/rule
+
+# Convenience name for target.
+demo_fr3_control: cobot_pump_ros/CMakeFiles/demo_fr3_control.dir/rule
+
+.PHONY : demo_fr3_control
+
+# fast build rule for target.
+demo_fr3_control/fast:
+	cd /home/rishabh/Robot/Pump_fr3_ws/build && $(MAKE) -f cobot_pump_ros/CMakeFiles/demo_fr3_control.dir/build.make cobot_pump_ros/CMakeFiles/demo_fr3_control.dir/build
+.PHONY : demo_fr3_control/fast
+
+# Convenience name for target.
 cobot_pump_ros/CMakeFiles/cobot_pump_control.dir/rule:
 	cd /home/rishabh/Robot/Pump_fr3_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cobot_pump_ros/CMakeFiles/cobot_pump_control.dir/rule
 .PHONY : cobot_pump_ros/CMakeFiles/cobot_pump_control.dir/rule
@@ -436,6 +451,21 @@ rosgraph_msgs_generate_messages_cpp: cobot_pump_ros/CMakeFiles/rosgraph_msgs_gen
 rosgraph_msgs_generate_messages_cpp/fast:
 	cd /home/rishabh/Robot/Pump_fr3_ws/build && $(MAKE) -f cobot_pump_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make cobot_pump_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+cobot_pump_ros/CMakeFiles/_cobot_pump_ros_generate_messages_check_deps_hci_action_srv.dir/rule:
+	cd /home/rishabh/Robot/Pump_fr3_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cobot_pump_ros/CMakeFiles/_cobot_pump_ros_generate_messages_check_deps_hci_action_srv.dir/rule
+.PHONY : cobot_pump_ros/CMakeFiles/_cobot_pump_ros_generate_messages_check_deps_hci_action_srv.dir/rule
+
+# Convenience name for target.
+_cobot_pump_ros_generate_messages_check_deps_hci_action_srv: cobot_pump_ros/CMakeFiles/_cobot_pump_ros_generate_messages_check_deps_hci_action_srv.dir/rule
+
+.PHONY : _cobot_pump_ros_generate_messages_check_deps_hci_action_srv
+
+# fast build rule for target.
+_cobot_pump_ros_generate_messages_check_deps_hci_action_srv/fast:
+	cd /home/rishabh/Robot/Pump_fr3_ws/build && $(MAKE) -f cobot_pump_ros/CMakeFiles/_cobot_pump_ros_generate_messages_check_deps_hci_action_srv.dir/build.make cobot_pump_ros/CMakeFiles/_cobot_pump_ros_generate_messages_check_deps_hci_action_srv.dir/build
+.PHONY : _cobot_pump_ros_generate_messages_check_deps_hci_action_srv/fast
 
 # Convenience name for target.
 cobot_pump_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
@@ -866,6 +896,33 @@ src/cobot_pump_node.cpp.s:
 	cd /home/rishabh/Robot/Pump_fr3_ws/build && $(MAKE) -f cobot_pump_ros/CMakeFiles/cobot_pump_node.dir/build.make cobot_pump_ros/CMakeFiles/cobot_pump_node.dir/src/cobot_pump_node.cpp.s
 .PHONY : src/cobot_pump_node.cpp.s
 
+src/demo_fr3_control.o: src/demo_fr3_control.cpp.o
+
+.PHONY : src/demo_fr3_control.o
+
+# target to build an object file
+src/demo_fr3_control.cpp.o:
+	cd /home/rishabh/Robot/Pump_fr3_ws/build && $(MAKE) -f cobot_pump_ros/CMakeFiles/demo_fr3_control.dir/build.make cobot_pump_ros/CMakeFiles/demo_fr3_control.dir/src/demo_fr3_control.cpp.o
+.PHONY : src/demo_fr3_control.cpp.o
+
+src/demo_fr3_control.i: src/demo_fr3_control.cpp.i
+
+.PHONY : src/demo_fr3_control.i
+
+# target to preprocess a source file
+src/demo_fr3_control.cpp.i:
+	cd /home/rishabh/Robot/Pump_fr3_ws/build && $(MAKE) -f cobot_pump_ros/CMakeFiles/demo_fr3_control.dir/build.make cobot_pump_ros/CMakeFiles/demo_fr3_control.dir/src/demo_fr3_control.cpp.i
+.PHONY : src/demo_fr3_control.cpp.i
+
+src/demo_fr3_control.s: src/demo_fr3_control.cpp.s
+
+.PHONY : src/demo_fr3_control.s
+
+# target to generate assembly for a file
+src/demo_fr3_control.cpp.s:
+	cd /home/rishabh/Robot/Pump_fr3_ws/build && $(MAKE) -f cobot_pump_ros/CMakeFiles/demo_fr3_control.dir/build.make cobot_pump_ros/CMakeFiles/demo_fr3_control.dir/src/demo_fr3_control.cpp.s
+.PHONY : src/demo_fr3_control.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -875,6 +932,7 @@ help:
 	@echo "... install/strip"
 	@echo "... install"
 	@echo "... edit_cache"
+	@echo "... demo_fr3_control"
 	@echo "... cobot_pump_control"
 	@echo "... cobot_pump_ros_generate_messages_py"
 	@echo "... cobot_pump_ros_genlisp"
@@ -895,6 +953,7 @@ help:
 	@echo "... test"
 	@echo "... cobot_pump_ros_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... _cobot_pump_ros_generate_messages_check_deps_hci_action_srv"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... rebuild_cache"
@@ -928,6 +987,9 @@ help:
 	@echo "... src/cobot_pump_node.o"
 	@echo "... src/cobot_pump_node.i"
 	@echo "... src/cobot_pump_node.s"
+	@echo "... src/demo_fr3_control.o"
+	@echo "... src/demo_fr3_control.i"
+	@echo "... src/demo_fr3_control.s"
 .PHONY : help
 
 

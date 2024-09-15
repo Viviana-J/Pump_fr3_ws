@@ -44,6 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/dropItem.srv"
     "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/readState.srv"
     "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/checkItemAttached.srv"
+    "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/hci_action_srv.srv"
     )
 endif()
 

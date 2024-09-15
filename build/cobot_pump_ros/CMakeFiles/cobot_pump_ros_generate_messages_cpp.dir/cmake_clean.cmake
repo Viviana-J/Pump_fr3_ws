@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/checkItemAttached.h"
   "/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/dropItem.h"
+  "/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/hci_action_srv.h"
   "/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/readState.h"
   "/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/startPump.h"
   "/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/stopPump.h"

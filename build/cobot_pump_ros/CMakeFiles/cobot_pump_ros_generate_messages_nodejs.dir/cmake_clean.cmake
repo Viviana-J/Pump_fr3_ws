@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "/home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/checkItemAttached.js"
   "/home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/dropItem.js"
+  "/home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/hci_action_srv.js"
   "/home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/readState.js"
   "/home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/startPump.js"
   "/home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/stopPump.js"

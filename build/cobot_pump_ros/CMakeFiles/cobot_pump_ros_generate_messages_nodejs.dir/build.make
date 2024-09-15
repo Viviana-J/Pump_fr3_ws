@@ -58,6 +58,7 @@ cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_nodejs: /home/rishabh
 cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_nodejs: /home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/dropItem.js
 cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_nodejs: /home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/readState.js
 cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_nodejs: /home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/checkItemAttached.js
+cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_nodejs: /home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/hci_action_srv.js
 
 
 /home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/startPump.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
@@ -85,12 +86,18 @@ cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_nodejs: /home/rishabh
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from cobot_pump_ros/checkItemAttached.srv"
 	cd /home/rishabh/Robot/Pump_fr3_ws/build/cobot_pump_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/checkItemAttached.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p cobot_pump_ros -o /home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv
 
+/home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/hci_action_srv.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/hci_action_srv.js: /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/hci_action_srv.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from cobot_pump_ros/hci_action_srv.srv"
+	cd /home/rishabh/Robot/Pump_fr3_ws/build/cobot_pump_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/hci_action_srv.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p cobot_pump_ros -o /home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv
+
 cobot_pump_ros_generate_messages_nodejs: cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_nodejs
 cobot_pump_ros_generate_messages_nodejs: /home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/startPump.js
 cobot_pump_ros_generate_messages_nodejs: /home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/stopPump.js
 cobot_pump_ros_generate_messages_nodejs: /home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/dropItem.js
 cobot_pump_ros_generate_messages_nodejs: /home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/readState.js
 cobot_pump_ros_generate_messages_nodejs: /home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/checkItemAttached.js
+cobot_pump_ros_generate_messages_nodejs: /home/rishabh/Robot/Pump_fr3_ws/devel/share/gennodejs/ros/cobot_pump_ros/srv/hci_action_srv.js
 cobot_pump_ros_generate_messages_nodejs: cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_nodejs.dir/build.make
 
 .PHONY : cobot_pump_ros_generate_messages_nodejs

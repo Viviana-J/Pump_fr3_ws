@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/rishabh/Robot/Pump_fr3_ws/devel/lib/libcobot_pump_control.pdb"
-  "/home/rishabh/Robot/Pump_fr3_ws/devel/lib/libcobot_pump_control.so"
+  "/home/rishabh/Robot/Pump_fr3_ws/devel/lib/cobot_pump_ros/cobot_pump_control"
+  "/home/rishabh/Robot/Pump_fr3_ws/devel/lib/cobot_pump_ros/cobot_pump_control.pdb"
   "CMakeFiles/cobot_pump_control.dir/src/cobot_pump_control.cpp.o"
 )
 
