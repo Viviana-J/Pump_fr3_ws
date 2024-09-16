@@ -182,6 +182,63 @@ bool execute_trajectory(moveit::planning_interface::MoveGroupInterface::Plan& my
 	return success;
 }
 
+double plan_and_execute_via_waypoints(moveit::planning_interface::MoveGroupInterface& group, moveit::planning_interface::MoveGroupInterface::Plan& myplan,const geometry_msgs::Pose& start_p, const geometry_msgs::Pose& target_p, int num_midpts=10)
+{
+
+	std::vector<geometry_msgs::Pose> waypoints;
+	geometry_msgs::Pose mid_p, transformed_start_p;
+
+	transformed_start_p = start_p;
+	transformed_start_p.orientation = target_p.orientation;
+
+	bool orientations_same = quaternion_similarity(transformed_start_p, start_p);
+	if(!orientations_same)
+	{
+		waypoints.push_back(transformed_start_p);
+	}
+
+	double delx = (start_p.position.x-target_p.position.x);
+	double dely = (start_p.position.y-target_p.position.y);
+	double delz = (start_p.position.z-target_p.position.z);
+	bool positions_same = std::abs(std::sqrt((delx*delx)+(dely*dely)+(delz*delz))) < 0.0002;
+
+	if(orientations_same && positions_same)
+	{
+		ROS_WARN_STREAM("Asked to cartesian control to identical goal point.");
+		return 1.0;
+	}
+	for (int i = 1; i < num_midpts; ++i)
+	{
+		mid_p = transformed_start_p;
+		mid_p.position.x += (target_p.position.x - transformed_start_p.position.x)/num_midpts * i;
+		mid_p.position.y += (target_p.position.y - transformed_start_p.position.y)/num_midpts * i;
+		mid_p.position.z += (target_p.position.z - transformed_start_p.position.z)/num_midpts * i;
+		waypoints.push_back(mid_p);
+	}
+
+	waypoints.push_back(target_p);
+
+	moveit_msgs::RobotTrajectory trajectory;
+
+	group.setStartState(*group.getCurrentState());
+
+	double fraction = group.computeCartesianPath(waypoints, 0.01, 0.00, trajectory);
+
+	// ROS_ERROR_STREAM("Waypoint fractional completion..."<<fraction);
+	// if (fraction > 0)
+	if (std::abs(fraction-1.0) <  0.01)
+	{
+		myplan.trajectory_ = trajectory;
+		if(trajectory.joint_trajectory.points.back().time_from_start.toSec() < 5)
+		{
+			execute_trajectory(myplan); 
+		}
+
+	}
+	return fraction;
+
+}
+
 bool plan_and_execute_waypoints_n(moveit::planning_interface::MoveGroupInterface& group, moveit::planning_interface::MoveGroupInterface::Plan& myplan, franka::VacuumGripper& vacuum_gripper, const std::vector<cobot_pump_ros::waypoint>& way_poses,double num_midpts=20)
 {
     std::vector<geometry_msgs::Pose> waypoints_all;
@@ -337,6 +394,8 @@ int main(int argc, char* argv[])
     spinner.start();
     moveit::planning_interface::MoveGroupInterface move_group_interface("fr3_arm");
     franka::VacuumGripper vacuum_gripper("172.16.0.2");
+    franka::VacuumGripperState state;
+    bool success_vaccum = false;
     moveit::planning_interface::MoveGroupInterface::Plan myplan;
 
     move_group_interface.setPlanningTime(10);
@@ -398,6 +457,7 @@ int main(int argc, char* argv[])
     hci_action.request.check = true;
     cout << "true" << endl;
     geometry_msgs::Pose pose_action = move_group_interface.getCurrentPose().pose;
+    geometry_msgs::Pose target_pose;
 
     if(pub_action.call(hci_action)){
         cout << "finish call" << endl;
@@ -406,11 +466,31 @@ int main(int argc, char* argv[])
         way_poses = hci_action.response.waypoints;
 
         cout << "waypose: " << endl;
-        for(int i=0; i<way_poses.size()-1; i++){
+        for(int i=0; i<way_poses.size(); i++){
             cout << "wayposes.pose.x:" << way_poses[i].pose.position.x << endl;
+            bool grip_action = way_poses[i].franka_gripper;
+            
+            target_pose = way_poses[i].pose;
+            pose_action = move_group_interface.getCurrentPose().pose;
+            plan_and_execute_via_waypoints(move_group_interface, myplan, pose_action, target_pose);
+
+            state = vacuum_gripper.readOnce();
+            success_vaccum = state.part_present;
+
+            std::this_thread::sleep_for(std::chrono::seconds(1));
+
+            if(grip_action && !success_vaccum){
+                cout << "gripper success " << endl;
+                vacuum_gripper.vacuum(vacuumStrength, std::chrono::milliseconds(timeout_ms));
+            }
+            else if(!grip_action && success_vaccum){
+                cout << "gripper drop " << endl;
+                std::this_thread::sleep_for(std::chrono::seconds(2));
+                vacuum_gripper.dropOff(std::chrono::milliseconds(timeout_ms));
+            }
         }
         
-        plan_and_execute_waypoints_n(move_group_interface, myplan, vacuum_gripper, way_poses);
+        // plan_and_execute_waypoints_n(move_group_interface, myplan, vacuum_gripper, way_poses);
 
         hci_action.request.check = false;
         

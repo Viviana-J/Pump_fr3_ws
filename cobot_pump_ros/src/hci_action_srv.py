@@ -68,16 +68,16 @@ def handle_action(req):
         # waypoints.append(wp1)
 
         # # Waypoint 2
-        # wp2 = waypoint()
-        # wp2.pose.position.x = 0.507095
-        # wp2.pose.position.y =  0.181918
-        # wp2.pose.position.z = 0.675561
-        # wp2.pose.orientation.x = 0.9505
-        # wp2.pose.orientation.y = -0.308911
-        # wp2.pose.orientation.z = -0.00778714
-        # wp2.pose.orientation.w = 0.0326119
-        # wp2.franka_gripper = False
-        # waypoints.append(wp2)
+        wp2 = waypoint()
+        wp2.pose.position.x = 0.507095
+        wp2.pose.position.y =  0.181918
+        wp2.pose.position.z = 0.675561
+        wp2.pose.orientation.x = 0.9505
+        wp2.pose.orientation.y = -0.308911
+        wp2.pose.orientation.z = -0.00778714
+        wp2.pose.orientation.w = 0.0326119
+        wp2.franka_gripper = True
+        waypoints.append(wp2)
 
         # # Waypoint 3
         # wp3 = waypoint()
@@ -115,16 +115,16 @@ def handle_action(req):
         wp5.franka_gripper = False
         waypoints.append(wp5)
 
-        wp4 = waypoint()
-        wp4.pose.position.x = 0.477202
-        wp4.pose.position.y = 0.302412
-        wp4.pose.position.z = 0.649541
-        wp4.pose.orientation.x = 0.926301
-        wp4.pose.orientation.y = -0.376725
-        wp4.pose.orientation.z = 0.000470843
-        wp4.pose.orientation.w = 0.0067146
-        wp4.franka_gripper = False
-        waypoints.append(wp4)
+        # wp4 = waypoint()
+        # wp4.pose.position.x = 0.477202
+        # wp4.pose.position.y = 0.302412
+        # wp4.pose.position.z = 0.649541
+        # wp4.pose.orientation.x = 0.926301
+        # wp4.pose.orientation.y = -0.376725
+        # wp4.pose.orientation.z = 0.000470843
+        # wp4.pose.orientation.w = 0.0067146
+        # wp4.franka_gripper = False
+        # waypoints.append(wp4)
         print("finish waypoints")
 
         response.waypoints = waypoints
