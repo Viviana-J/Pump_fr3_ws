@@ -224,7 +224,7 @@ double plan_and_execute_via_waypoints(moveit::planning_interface::MoveGroupInter
 
 	double fraction = group.computeCartesianPath(waypoints, 0.01, 0.00, trajectory);
 
-	// ROS_ERROR_STREAM("Waypoint fractional completion..."<<fraction);
+	ROS_ERROR_STREAM("Waypoint fractional completion..."<<fraction);
 	// if (fraction > 0)
 	if (std::abs(fraction-1.0) <  0.01)
 	{
@@ -305,7 +305,7 @@ bool plan_and_execute_waypoints_n(moveit::planning_interface::MoveGroupInterface
         }
         else if(!gripper_action && success_vaccum){
             cout << "gripper drop " << endl;
-            std::this_thread::sleep_for(std::chrono::seconds(2));
+            // std::this_thread::sleep_for(std::chrono::seconds(2));
             vacuum_gripper.dropOff(std::chrono::milliseconds(timeout_ms));
 
             std::this_thread::sleep_for(std::chrono::seconds(3));
