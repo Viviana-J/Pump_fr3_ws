@@ -1,8 +1,0 @@
-prefix=/home/rishabh/Robot/Pump_fr3_ws/install
-
-Name: moveit_commander
-Description: Description of moveit_commander
-Version: 1.1.15
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
