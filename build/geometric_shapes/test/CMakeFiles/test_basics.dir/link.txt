@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/test_basics.dir/test_basics.cpp.o  -o /home/rishabh/Robot/Pump_fr3_ws/devel/lib/geometric_shapes/test_basics   -L/home/rishabh/Robot/Pump_fr3_ws/build/gtest  -Wl,-rpath,/home/rishabh/Robot/Pump_fr3_ws/build/gtest:/home/rishabh/Robot/Pump_fr3_ws/build/gtest/lib ../../gtest/lib/libgtest.so -pthread 

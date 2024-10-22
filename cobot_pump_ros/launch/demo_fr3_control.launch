@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+      <node name="demo_fr3_control" 
+            pkg="cobot_pump_ros" 
+            type="demo_fr3_control" 
+            respawn="false" output="screen"  >
+      </node>
+</launch>
