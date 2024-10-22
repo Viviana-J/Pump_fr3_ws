@@ -40,7 +40,7 @@ template<>
 struct MD5Sum< ::cobot_pump_ros::hci_action_srv > {
   static const char* value()
   {
-    return "c43a3220bfd54c72b40a7f1b9339aa4f";
+    return "8459cc57e480624d25da434fe579e7c3";
   }
 
   static const char* value(const ::cobot_pump_ros::hci_action_srv&) { return value(); }

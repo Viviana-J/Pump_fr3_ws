@@ -185,7 +185,7 @@ foreach(t ${cobot_pump_ros_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "roscpp;message_runtime;control_msgs;sensor_msgs;xmlrpcpp;std_msgs")
+set(depends "control_msgs;xmlrpcpp;rosbag;std_msgs;geometry_msgs;roscpp;rospy;tf2;cv_bridge;moveit_msgs;moveit_core;moveit_ros_planning;moveit_ros_planning_interface;moveit_ros_move_group;message_runtime;franka_msgs;franka_description;franka_gripper;actionlib;moveit_visual_tools;shape_msgs;sensor_msgs;message_filters;array")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls

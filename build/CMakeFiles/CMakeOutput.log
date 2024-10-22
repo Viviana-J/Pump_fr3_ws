@@ -28,13 +28,13 @@ The CXX compiler identification is GNU, found in "/home/rishabh/Robot/Pump_fr3_w
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b9579/fast && /usr/bin/make -f CMakeFiles/cmTC_b9579.dir/build.make CMakeFiles/cmTC_b9579.dir/build
+Run Build Command(s):/usr/bin/make cmTC_49fc5/fast && /usr/bin/make -f CMakeFiles/cmTC_49fc5.dir/build.make CMakeFiles/cmTC_49fc5.dir/build
 make[1]: Entering directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b9579.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b9579.dir/testCCompiler.c.o   -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_b9579
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9579.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b9579.dir/testCCompiler.c.o  -o cmTC_b9579 
+Building C object CMakeFiles/cmTC_49fc5.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_49fc5.dir/testCCompiler.c.o   -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_49fc5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49fc5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_49fc5.dir/testCCompiler.c.o  -o cmTC_49fc5 
 make[1]: Leaving directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -42,18 +42,18 @@ make[1]: Leaving directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMa
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_65e98/fast && /usr/bin/make -f CMakeFiles/cmTC_65e98.dir/build.make CMakeFiles/cmTC_65e98.dir/build
+Run Build Command(s):/usr/bin/make cmTC_6c5d6/fast && /usr/bin/make -f CMakeFiles/cmTC_6c5d6.dir/build.make CMakeFiles/cmTC_6c5d6.dir/build
 make[1]: Entering directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -o CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 Target: aarch64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
 Thread model: posix
 gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/9/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccFErrBE.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/9/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccMJf59y.s
 GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)
 	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
@@ -73,15 +73,15 @@ GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: bae83efe2e4e7b8eac1a6149e340cc5c
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
- as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o /tmp/ccFErrBE.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o /tmp/ccMJf59y.s
 GNU assembler version 2.34 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/
-LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
-Linking C executable cmTC_65e98
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65e98.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o  -o cmTC_65e98 
+LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+Linking C executable cmTC_6c5d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c5d6.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o  -o cmTC_6c5d6 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper
@@ -90,10 +90,10 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20
 Thread model: posix
 gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/
-LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_65e98' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCdWbw3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_65e98 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11/lib64/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11/lib64 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_65e98' '-mlittle-endian' '-mabi=lp64'
+LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6c5d6' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWa0nrX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_6c5d6 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11/lib64/../lib -L/usr/local/cuda-11/lib64/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11/lib64 -L/usr/local/cuda-11/lib64 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6c5d6' '-mlittle-endian' '-mabi=lp64'
 make[1]: Leaving directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -117,18 +117,18 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_65e98/fast && /usr/bin/make -f CMakeFiles/cmTC_65e98.dir/build.make CMakeFiles/cmTC_65e98.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_6c5d6/fast && /usr/bin/make -f CMakeFiles/cmTC_6c5d6.dir/build.make CMakeFiles/cmTC_6c5d6.dir/build]
   ignore line: [make[1]: Entering directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [Target: aarch64-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/9/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccFErrBE.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/9/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccMJf59y.s]
   ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)]
   ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
@@ -148,15 +148,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: bae83efe2e4e7b8eac1a6149e340cc5c]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o /tmp/ccFErrBE.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o /tmp/ccMJf59y.s]
   ignore line: [GNU assembler version 2.34 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [Linking C executable cmTC_65e98]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65e98.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o  -o cmTC_65e98 ]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking C executable cmTC_6c5d6]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c5d6.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o  -o cmTC_6c5d6 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper]
@@ -165,14 +165,14 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_65e98' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCdWbw3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_65e98 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11/lib64/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11/lib64 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6c5d6' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWa0nrX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_6c5d6 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11/lib64/../lib -L/usr/local/cuda-11/lib64/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11/lib64 -L/usr/local/cuda-11/lib64 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccCdWbw3.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccWa0nrX.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -193,10 +193,11 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_65e98] ==> ignore
+    arg [cmTC_6c5d6] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/local/cuda-11/lib64/../lib] ==> dir [/usr/local/cuda-11/lib64/../lib]
     arg [-L/usr/local/cuda-11/lib64/../lib] ==> dir [/usr/local/cuda-11/lib64/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/9] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/9]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu]
@@ -207,8 +208,9 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L.] ==> ignore
     arg [-L/usr/local/cuda-11/lib64] ==> dir [/usr/local/cuda-11/lib64]
+    arg [-L/usr/local/cuda-11/lib64] ==> dir [/usr/local/cuda-11/lib64]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../..]
-    arg [CMakeFiles/cmTC_65e98.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_6c5d6.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -223,6 +225,7 @@ Parsed C implicit link information from above output:
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o] ==> ignore
   collapse library dir [/usr/local/cuda-11/lib64/../lib] ==> [/usr/local/cuda-11/lib]
+  collapse library dir [/usr/local/cuda-11/lib64/../lib] ==> [/usr/local/cuda-11/lib]
   collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9] ==> [/usr/lib/gcc/aarch64-linux-gnu/9]
   collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
   collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
@@ -230,6 +233,7 @@ Parsed C implicit link information from above output:
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/cuda-11/lib64] ==> [/usr/local/cuda-11/lib64]
   collapse library dir [/usr/local/cuda-11/lib64] ==> [/usr/local/cuda-11/lib64]
   collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../..] ==> [/usr/lib]
   implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
@@ -240,13 +244,13 @@ Parsed C implicit link information from above output:
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_08d70/fast && /usr/bin/make -f CMakeFiles/cmTC_08d70.dir/build.make CMakeFiles/cmTC_08d70.dir/build
+Run Build Command(s):/usr/bin/make cmTC_a4d72/fast && /usr/bin/make -f CMakeFiles/cmTC_a4d72.dir/build.make CMakeFiles/cmTC_a4d72.dir/build
 make[1]: Entering directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_08d70.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_08d70.dir/testCXXCompiler.cxx.o -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_08d70
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08d70.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_08d70.dir/testCXXCompiler.cxx.o  -o cmTC_08d70 
+Building CXX object CMakeFiles/cmTC_a4d72.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_a4d72.dir/testCXXCompiler.cxx.o -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a4d72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4d72.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a4d72.dir/testCXXCompiler.cxx.o  -o cmTC_a4d72 
 make[1]: Leaving directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -254,18 +258,18 @@ make[1]: Leaving directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMa
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_37df4/fast && /usr/bin/make -f CMakeFiles/cmTC_37df4.dir/build.make CMakeFiles/cmTC_37df4.dir/build
+Run Build Command(s):/usr/bin/make cmTC_97f04/fast && /usr/bin/make -f CMakeFiles/cmTC_97f04.dir/build.make CMakeFiles/cmTC_97f04.dir/build
 make[1]: Entering directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++    -v -o CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 Target: aarch64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
 Thread model: posix
 gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccgqU4MA.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/cc0zE9HZ.s
 GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)
 	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
@@ -289,15 +293,15 @@ GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 76f300a9566415b293c4e87b0a05621d
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
- as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccgqU4MA.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc0zE9HZ.s
 GNU assembler version 2.34 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/
-LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-Linking CXX executable cmTC_37df4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37df4.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_37df4 
+LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+Linking CXX executable cmTC_97f04
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97f04.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_97f04 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper
@@ -306,10 +310,10 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20
 Thread model: posix
 gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/
-LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_37df4' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKWqVR1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_37df4 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11/lib64/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11/lib64 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_37df4' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_97f04' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMbXeVa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_97f04 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11/lib64/../lib -L/usr/local/cuda-11/lib64/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11/lib64 -L/usr/local/cuda-11/lib64 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_97f04' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
 make[1]: Leaving directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -339,18 +343,18 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_37df4/fast && /usr/bin/make -f CMakeFiles/cmTC_37df4.dir/build.make CMakeFiles/cmTC_37df4.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_97f04/fast && /usr/bin/make -f CMakeFiles/cmTC_97f04.dir/build.make CMakeFiles/cmTC_97f04.dir/build]
   ignore line: [make[1]: Entering directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [Target: aarch64-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccgqU4MA.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/cc0zE9HZ.s]
   ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)]
   ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
@@ -374,15 +378,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 76f300a9566415b293c4e87b0a05621d]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccgqU4MA.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc0zE9HZ.s]
   ignore line: [GNU assembler version 2.34 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [Linking CXX executable cmTC_37df4]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37df4.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_37df4 ]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking CXX executable cmTC_97f04]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97f04.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_97f04 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper]
@@ -391,14 +395,14 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_37df4' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKWqVR1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_37df4 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11/lib64/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11/lib64 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_97f04' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMbXeVa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_97f04 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11/lib64/../lib -L/usr/local/cuda-11/lib64/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11/lib64 -L/usr/local/cuda-11/lib64 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccKWqVR1.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccMbXeVa.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -419,10 +423,11 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_37df4] ==> ignore
+    arg [cmTC_97f04] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/local/cuda-11/lib64/../lib] ==> dir [/usr/local/cuda-11/lib64/../lib]
     arg [-L/usr/local/cuda-11/lib64/../lib] ==> dir [/usr/local/cuda-11/lib64/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/9] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/9]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu]
@@ -433,8 +438,9 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L.] ==> ignore
     arg [-L/usr/local/cuda-11/lib64] ==> dir [/usr/local/cuda-11/lib64]
+    arg [-L/usr/local/cuda-11/lib64] ==> dir [/usr/local/cuda-11/lib64]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../..]
-    arg [CMakeFiles/cmTC_37df4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_97f04.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -445,6 +451,7 @@ Parsed CXX implicit link information from above output:
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o] ==> ignore
   collapse library dir [/usr/local/cuda-11/lib64/../lib] ==> [/usr/local/cuda-11/lib]
+  collapse library dir [/usr/local/cuda-11/lib64/../lib] ==> [/usr/local/cuda-11/lib]
   collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9] ==> [/usr/lib/gcc/aarch64-linux-gnu/9]
   collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
   collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
@@ -452,6 +459,7 @@ Parsed CXX implicit link information from above output:
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/cuda-11/lib64] ==> [/usr/local/cuda-11/lib64]
   collapse library dir [/usr/local/cuda-11/lib64] ==> [/usr/local/cuda-11/lib64]
   collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
@@ -462,13 +470,13 @@ Parsed CXX implicit link information from above output:
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_8a024/fast && /usr/bin/make -f CMakeFiles/cmTC_8a024.dir/build.make CMakeFiles/cmTC_8a024.dir/build
+Run Build Command(s):/usr/bin/make cmTC_75322/fast && /usr/bin/make -f CMakeFiles/cmTC_75322.dir/build.make CMakeFiles/cmTC_75322.dir/build
 make[1]: Entering directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8a024.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_8a024.dir/CheckIncludeFile.c.o   -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_8a024
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a024.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8a024.dir/CheckIncludeFile.c.o  -o cmTC_8a024 
+Building C object CMakeFiles/cmTC_75322.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_75322.dir/CheckIncludeFile.c.o   -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_75322
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75322.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_75322.dir/CheckIncludeFile.c.o  -o cmTC_75322 
 make[1]: Leaving directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -476,13 +484,13 @@ make[1]: Leaving directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMa
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_940be/fast && /usr/bin/make -f CMakeFiles/cmTC_940be.dir/build.make CMakeFiles/cmTC_940be.dir/build
+Run Build Command(s):/usr/bin/make cmTC_0ce05/fast && /usr/bin/make -f CMakeFiles/cmTC_0ce05.dir/build.make CMakeFiles/cmTC_0ce05.dir/build
 make[1]: Entering directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_940be.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_940be.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_940be
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_940be.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_940be.dir/CheckFunctionExists.c.o  -o cmTC_940be  -lpthread 
+Building C object CMakeFiles/cmTC_0ce05.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0ce05.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0ce05
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ce05.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0ce05.dir/CheckFunctionExists.c.o  -o cmTC_0ce05  -lpthread 
 make[1]: Leaving directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -490,13 +498,13 @@ make[1]: Leaving directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMa
 Performing C++ SOURCE FILE Test HAS_FLTO succeeded with the following output:
 Change Dir: /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_dc789/fast && /usr/bin/make -f CMakeFiles/cmTC_dc789.dir/build.make CMakeFiles/cmTC_dc789.dir/build
+Run Build Command(s):/usr/bin/make cmTC_6cebc/fast && /usr/bin/make -f CMakeFiles/cmTC_6cebc.dir/build.make CMakeFiles/cmTC_6cebc.dir/build
 make[1]: Entering directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_dc789.dir/src.cxx.o
-/usr/bin/c++    -DHAS_FLTO   -flto -fno-fat-lto-objects -std=c++17 -o CMakeFiles/cmTC_dc789.dir/src.cxx.o -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_dc789
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc789.dir/link.txt --verbose=1
-/usr/bin/c++   -DHAS_FLTO    CMakeFiles/cmTC_dc789.dir/src.cxx.o  -o cmTC_dc789  -flto 
+Building CXX object CMakeFiles/cmTC_6cebc.dir/src.cxx.o
+/usr/bin/c++    -DHAS_FLTO   -flto -fno-fat-lto-objects -std=c++17 -o CMakeFiles/cmTC_6cebc.dir/src.cxx.o -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6cebc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cebc.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_FLTO    CMakeFiles/cmTC_6cebc.dir/src.cxx.o  -o cmTC_6cebc  -flto 
 make[1]: Leaving directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -505,13 +513,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
 Change Dir: /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_7e2d7/fast && /usr/bin/make -f CMakeFiles/cmTC_7e2d7.dir/build.make CMakeFiles/cmTC_7e2d7.dir/build
+Run Build Command(s):/usr/bin/make cmTC_f9b12/fast && /usr/bin/make -f CMakeFiles/cmTC_f9b12.dir/build.make CMakeFiles/cmTC_f9b12.dir/build
 make[1]: Entering directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7e2d7.dir/src.cxx.o
-/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_VISIBILITY   -fvisibility=hidden -std=c++17 -o CMakeFiles/cmTC_7e2d7.dir/src.cxx.o -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_7e2d7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e2d7.dir/link.txt --verbose=1
-/usr/bin/c++   -DCOMPILER_HAS_HIDDEN_VISIBILITY    CMakeFiles/cmTC_7e2d7.dir/src.cxx.o  -o cmTC_7e2d7 
+Building CXX object CMakeFiles/cmTC_f9b12.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_VISIBILITY   -fvisibility=hidden -std=c++17 -o CMakeFiles/cmTC_f9b12.dir/src.cxx.o -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f9b12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9b12.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_HAS_HIDDEN_VISIBILITY    CMakeFiles/cmTC_f9b12.dir/src.cxx.o  -o cmTC_f9b12 
 make[1]: Leaving directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -520,13 +528,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
 Change Dir: /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_2eeb7/fast && /usr/bin/make -f CMakeFiles/cmTC_2eeb7.dir/build.make CMakeFiles/cmTC_2eeb7.dir/build
+Run Build Command(s):/usr/bin/make cmTC_b6a06/fast && /usr/bin/make -f CMakeFiles/cmTC_b6a06.dir/build.make CMakeFiles/cmTC_b6a06.dir/build
 make[1]: Entering directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2eeb7.dir/src.cxx.o
-/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY   -fvisibility-inlines-hidden -std=c++17 -o CMakeFiles/cmTC_2eeb7.dir/src.cxx.o -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_2eeb7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2eeb7.dir/link.txt --verbose=1
-/usr/bin/c++   -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY    CMakeFiles/cmTC_2eeb7.dir/src.cxx.o  -o cmTC_2eeb7 
+Building CXX object CMakeFiles/cmTC_b6a06.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY   -fvisibility-inlines-hidden -std=c++17 -o CMakeFiles/cmTC_b6a06.dir/src.cxx.o -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b6a06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6a06.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY    CMakeFiles/cmTC_b6a06.dir/src.cxx.o  -o cmTC_b6a06 
 make[1]: Leaving directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -535,10 +543,10 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
 Change Dir: /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d7a91/fast && /usr/bin/make -f CMakeFiles/cmTC_d7a91.dir/build.make CMakeFiles/cmTC_d7a91.dir/build
+Run Build Command(s):/usr/bin/make cmTC_b9e15/fast && /usr/bin/make -f CMakeFiles/cmTC_b9e15.dir/build.make CMakeFiles/cmTC_b9e15.dir/build
 make[1]: Entering directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d7a91.dir/src.cxx.o
-/usr/bin/c++    -DCOMPILER_HAS_DEPRECATED_ATTR   -std=c++17 -o CMakeFiles/cmTC_d7a91.dir/src.cxx.o -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_b9e15.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_HAS_DEPRECATED_ATTR   -std=c++17 -o CMakeFiles/cmTC_b9e15.dir/src.cxx.o -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp/src.cxx
 /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
 /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
     2 |     int main() { return somefunc();}
@@ -552,9 +560,9 @@ Building CXX object CMakeFiles/cmTC_d7a91.dir/src.cxx.o
 /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
     1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
       |                                     ^~~~~~~~
-Linking CXX executable cmTC_d7a91
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7a91.dir/link.txt --verbose=1
-/usr/bin/c++   -DCOMPILER_HAS_DEPRECATED_ATTR    CMakeFiles/cmTC_d7a91.dir/src.cxx.o  -o cmTC_d7a91 
+Linking CXX executable cmTC_b9e15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9e15.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_HAS_DEPRECATED_ATTR    CMakeFiles/cmTC_b9e15.dir/src.cxx.o  -o cmTC_b9e15 
 make[1]: Leaving directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -564,18 +572,18 @@ __attribute__((__deprecated__)) int somefunc() { return 0; }
 Detecting C OpenMP compiler ABI info compiled with the following output:
 Change Dir: /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_edc26/fast && /usr/bin/make -f CMakeFiles/cmTC_edc26.dir/build.make CMakeFiles/cmTC_edc26.dir/build
+Run Build Command(s):/usr/bin/make cmTC_08639/fast && /usr/bin/make -f CMakeFiles/cmTC_08639.dir/build.make CMakeFiles/cmTC_08639.dir/build
 make[1]: Entering directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o
-/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o   -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Building C object CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o
+/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o   -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 Target: aarch64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
 Thread model: posix
 gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread'
- /usr/lib/gcc/aarch64-linux-gnu/9/cc1 -quiet -v -imultiarch aarch64-linux-gnu -D_REENTRANT /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccREiM5L.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread'
+ /usr/lib/gcc/aarch64-linux-gnu/9/cc1 -quiet -v -imultiarch aarch64-linux-gnu -D_REENTRANT /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccyEqbBu.s
 GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)
 	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
@@ -595,15 +603,15 @@ GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: bae83efe2e4e7b8eac1a6149e340cc5c
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread'
- as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o /tmp/ccREiM5L.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o /tmp/ccyEqbBu.s
 GNU assembler version 2.34 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/
-LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread'
-Linking C executable cmTC_edc26
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edc26.dir/link.txt --verbose=1
-/usr/bin/cc  -fopenmp -v    -rdynamic CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o  -o cmTC_edc26  -v 
+LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread'
+Linking C executable cmTC_08639
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08639.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -v    -rdynamic CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o  -o cmTC_08639  -v 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper
@@ -612,11 +620,11 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20
 Thread model: posix
 gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/
-LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
+LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
 Reading specs from /usr/lib/gcc/aarch64-linux-gnu/9/libgomp.spec
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_edc26' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread'
- /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cchqxe0h.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_edc26 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11/lib64/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11/lib64 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_edc26' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread'
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_08639' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread'
+ /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVitLzW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_08639 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11/lib64/../lib -L/usr/local/cuda-11/lib64/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11/lib64 -L/usr/local/cuda-11/lib64 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_08639' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread'
 make[1]: Leaving directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -625,18 +633,18 @@ Parsed C OpenMP implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_edc26/fast && /usr/bin/make -f CMakeFiles/cmTC_edc26.dir/build.make CMakeFiles/cmTC_edc26.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_08639/fast && /usr/bin/make -f CMakeFiles/cmTC_08639.dir/build.make CMakeFiles/cmTC_08639.dir/build]
   ignore line: [make[1]: Entering directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o]
-  ignore line: [/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o   -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Building C object CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o]
+  ignore line: [/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o   -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [Target: aarch64-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/9/cc1 -quiet -v -imultiarch aarch64-linux-gnu -D_REENTRANT /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccREiM5L.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/9/cc1 -quiet -v -imultiarch aarch64-linux-gnu -D_REENTRANT /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccyEqbBu.s]
   ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)]
   ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
@@ -656,15 +664,15 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: bae83efe2e4e7b8eac1a6149e340cc5c]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o /tmp/ccREiM5L.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o /tmp/ccyEqbBu.s]
   ignore line: [GNU assembler version 2.34 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  ignore line: [Linking C executable cmTC_edc26]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edc26.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -fopenmp -v    -rdynamic CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o  -o cmTC_edc26  -v ]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  ignore line: [Linking C executable cmTC_08639]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08639.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -fopenmp -v    -rdynamic CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o  -o cmTC_08639  -v ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper]
@@ -673,15 +681,15 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
   ignore line: [Reading specs from /usr/lib/gcc/aarch64-linux-gnu/9/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_edc26' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cchqxe0h.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_edc26 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11/lib64/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11/lib64 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_08639' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVitLzW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_08639 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11/lib64/../lib -L/usr/local/cuda-11/lib64/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11/lib64 -L/usr/local/cuda-11/lib64 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cchqxe0h.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccVitLzW.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -703,10 +711,11 @@ Parsed C OpenMP implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_edc26] ==> ignore
+    arg [cmTC_08639] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/local/cuda-11/lib64/../lib] ==> dir [/usr/local/cuda-11/lib64/../lib]
     arg [-L/usr/local/cuda-11/lib64/../lib] ==> dir [/usr/local/cuda-11/lib64/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/9] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/9]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu]
@@ -717,8 +726,9 @@ Parsed C OpenMP implicit link information from above output:
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L.] ==> ignore
     arg [-L/usr/local/cuda-11/lib64] ==> dir [/usr/local/cuda-11/lib64]
+    arg [-L/usr/local/cuda-11/lib64] ==> dir [/usr/local/cuda-11/lib64]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../..]
-    arg [CMakeFiles/cmTC_edc26.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_08639.dir/OpenMPTryFlag.c.o] ==> ignore
     arg [-lgomp] ==> lib [gomp]
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
@@ -735,6 +745,7 @@ Parsed C OpenMP implicit link information from above output:
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o] ==> ignore
   collapse library dir [/usr/local/cuda-11/lib64/../lib] ==> [/usr/local/cuda-11/lib]
+  collapse library dir [/usr/local/cuda-11/lib64/../lib] ==> [/usr/local/cuda-11/lib]
   collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9] ==> [/usr/lib/gcc/aarch64-linux-gnu/9]
   collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
   collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
@@ -742,6 +753,7 @@ Parsed C OpenMP implicit link information from above output:
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/cuda-11/lib64] ==> [/usr/local/cuda-11/lib64]
   collapse library dir [/usr/local/cuda-11/lib64] ==> [/usr/local/cuda-11/lib64]
   collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../..] ==> [/usr/lib]
   implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
@@ -752,18 +764,18 @@ Parsed C OpenMP implicit link information from above output:
 Detecting CXX OpenMP compiler ABI info compiled with the following output:
 Change Dir: /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_3d3ff/fast && /usr/bin/make -f CMakeFiles/cmTC_3d3ff.dir/build.make CMakeFiles/cmTC_3d3ff.dir/build
+Run Build Command(s):/usr/bin/make cmTC_56bd3/fast && /usr/bin/make -f CMakeFiles/cmTC_56bd3.dir/build.make CMakeFiles/cmTC_56bd3.dir/build
 make[1]: Entering directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o
-/usr/bin/c++    -fopenmp -v   -o CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Building CXX object CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o
+/usr/bin/c++    -fopenmp -v   -o CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 Target: aarch64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
 Thread model: posix
 gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
- /usr/lib/gcc/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccG1wMrO.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+ /usr/lib/gcc/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccRfKWhp.s
 GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)
 	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
@@ -787,15 +799,15 @@ GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 76f300a9566415b293c4e87b0a05621d
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
- as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o /tmp/ccG1wMrO.s
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o /tmp/ccRfKWhp.s
 GNU assembler version 2.34 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/
-LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
-Linking CXX executable cmTC_3d3ff
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d3ff.dir/link.txt --verbose=1
-/usr/bin/c++   -fopenmp -v    -rdynamic CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o  -o cmTC_3d3ff  -v 
+LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+Linking CXX executable cmTC_56bd3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56bd3.dir/link.txt --verbose=1
+/usr/bin/c++   -fopenmp -v    -rdynamic CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o  -o cmTC_56bd3  -v 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper
@@ -804,11 +816,11 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20
 Thread model: posix
 gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/
-LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
+LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
 Reading specs from /usr/lib/gcc/aarch64-linux-gnu/9/libgomp.spec
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_3d3ff' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
- /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQoabqg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_3d3ff /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11/lib64/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11/lib64 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_3d3ff' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_56bd3' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+ /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTWihoU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_56bd3 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11/lib64/../lib -L/usr/local/cuda-11/lib64/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11/lib64 -L/usr/local/cuda-11/lib64 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_56bd3' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
 make[1]: Leaving directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp'
 
 
@@ -817,18 +829,18 @@ Parsed CXX OpenMP implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_3d3ff/fast && /usr/bin/make -f CMakeFiles/cmTC_3d3ff.dir/build.make CMakeFiles/cmTC_3d3ff.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_56bd3/fast && /usr/bin/make -f CMakeFiles/cmTC_56bd3.dir/build.make CMakeFiles/cmTC_56bd3.dir/build]
   ignore line: [make[1]: Entering directory '/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o]
-  ignore line: [/usr/bin/c++    -fopenmp -v   -o CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/bin/c++    -fopenmp -v   -o CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o -c /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [Target: aarch64-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccG1wMrO.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/9/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -o /tmp/ccRfKWhp.s]
   ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (aarch64-linux-gnu)]
   ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
@@ -852,15 +864,15 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 76f300a9566415b293c4e87b0a05621d]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o /tmp/ccG1wMrO.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o /tmp/ccRfKWhp.s]
   ignore line: [GNU assembler version 2.34 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  ignore line: [Linking CXX executable cmTC_3d3ff]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d3ff.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++   -fopenmp -v    -rdynamic CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o  -o cmTC_3d3ff  -v ]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_56bd3]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56bd3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++   -fopenmp -v    -rdynamic CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o  -o cmTC_56bd3  -v ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper]
@@ -869,15 +881,15 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [LIBRARY_PATH=/usr/local/cuda-11/lib64/../lib/:/usr/local/cuda-11/lib64/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:./:/usr/local/cuda-11/lib64/:/usr/local/cuda-11/lib64/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/]
   ignore line: [Reading specs from /usr/lib/gcc/aarch64-linux-gnu/9/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_3d3ff' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQoabqg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_3d3ff /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11/lib64/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11/lib64 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_56bd3' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTWihoU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_56bd3 /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o -L/usr/local/cuda-11/lib64/../lib -L/usr/local/cuda-11/lib64/../lib -L/usr/lib/gcc/aarch64-linux-gnu/9 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L. -L/usr/local/cuda-11/lib64 -L/usr/local/cuda-11/lib64 -L/usr/lib/gcc/aarch64-linux-gnu/9/../../.. CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccQoabqg.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccTWihoU.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -899,10 +911,11 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3d3ff] ==> ignore
+    arg [cmTC_56bd3] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/local/cuda-11/lib64/../lib] ==> dir [/usr/local/cuda-11/lib64/../lib]
     arg [-L/usr/local/cuda-11/lib64/../lib] ==> dir [/usr/local/cuda-11/lib64/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/9] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/9]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu]
@@ -913,8 +926,9 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L.] ==> ignore
     arg [-L/usr/local/cuda-11/lib64] ==> dir [/usr/local/cuda-11/lib64]
+    arg [-L/usr/local/cuda-11/lib64] ==> dir [/usr/local/cuda-11/lib64]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../..]
-    arg [CMakeFiles/cmTC_3d3ff.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_56bd3.dir/OpenMPTryFlag.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgomp] ==> lib [gomp]
@@ -927,6 +941,7 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/crtendS.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/crtn.o] ==> ignore
   collapse library dir [/usr/local/cuda-11/lib64/../lib] ==> [/usr/local/cuda-11/lib]
+  collapse library dir [/usr/local/cuda-11/lib64/../lib] ==> [/usr/local/cuda-11/lib]
   collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9] ==> [/usr/lib/gcc/aarch64-linux-gnu/9]
   collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
   collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
@@ -934,6 +949,7 @@ Parsed CXX OpenMP implicit link information from above output:
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/cuda-11/lib64] ==> [/usr/local/cuda-11/lib64]
   collapse library dir [/usr/local/cuda-11/lib64] ==> [/usr/local/cuda-11/lib64]
   collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/9/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]

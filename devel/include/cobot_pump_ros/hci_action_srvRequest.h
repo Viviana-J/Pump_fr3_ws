@@ -24,14 +24,17 @@ struct hci_action_srvRequest_
   typedef hci_action_srvRequest_<ContainerAllocator> Type;
 
   hci_action_srvRequest_()
-    {
+    : check(false)  {
     }
   hci_action_srvRequest_(const ContainerAllocator& _alloc)
-    {
+    : check(false)  {
   (void)_alloc;
     }
 
 
+
+   typedef uint8_t _check_type;
+  _check_type check;
 
 
 
@@ -56,6 +59,19 @@ std::ostream& operator<<(std::ostream& s, const ::cobot_pump_ros::hci_action_srv
 {
 ros::message_operations::Printer< ::cobot_pump_ros::hci_action_srvRequest_<ContainerAllocator> >::stream(s, "", v);
 return s;
+}
+
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::cobot_pump_ros::hci_action_srvRequest_<ContainerAllocator1> & lhs, const ::cobot_pump_ros::hci_action_srvRequest_<ContainerAllocator2> & rhs)
+{
+  return lhs.check == rhs.check;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::cobot_pump_ros::hci_action_srvRequest_<ContainerAllocator1> & lhs, const ::cobot_pump_ros::hci_action_srvRequest_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
 }
 
 
@@ -106,12 +122,12 @@ struct MD5Sum< ::cobot_pump_ros::hci_action_srvRequest_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "d41d8cd98f00b204e9800998ecf8427e";
+    return "c5df00fea9d1f39520fa0345cbde1b26";
   }
 
   static const char* value(const ::cobot_pump_ros::hci_action_srvRequest_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0xd41d8cd98f00b204ULL;
-  static const uint64_t static_value2 = 0xe9800998ecf8427eULL;
+  static const uint64_t static_value1 = 0xc5df00fea9d1f395ULL;
+  static const uint64_t static_value2 = 0x20fa0345cbde1b26ULL;
 };
 
 template<class ContainerAllocator>
@@ -130,7 +146,7 @@ struct Definition< ::cobot_pump_ros::hci_action_srvRequest_<ContainerAllocator> 
 {
   static const char* value()
   {
-    return "\n"
+    return "bool check\n"
 ;
   }
 
@@ -147,8 +163,10 @@ namespace serialization
 
   template<class ContainerAllocator> struct Serializer< ::cobot_pump_ros::hci_action_srvRequest_<ContainerAllocator> >
   {
-    template<typename Stream, typename T> inline static void allInOne(Stream&, T)
-    {}
+    template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)
+    {
+      stream.next(m.check);
+    }
 
     ROS_DECLARE_ALLINONE_SERIALIZER
   }; // struct hci_action_srvRequest_
@@ -164,8 +182,11 @@ namespace message_operations
 template<class ContainerAllocator>
 struct Printer< ::cobot_pump_ros::hci_action_srvRequest_<ContainerAllocator> >
 {
-  template<typename Stream> static void stream(Stream&, const std::string&, const ::cobot_pump_ros::hci_action_srvRequest_<ContainerAllocator>&)
-  {}
+  template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::cobot_pump_ros::hci_action_srvRequest_<ContainerAllocator>& v)
+  {
+    s << indent << "check: ";
+    Printer<uint8_t>::stream(s, indent + "  ", v.check);
+  }
 };
 
 } // namespace message_operations

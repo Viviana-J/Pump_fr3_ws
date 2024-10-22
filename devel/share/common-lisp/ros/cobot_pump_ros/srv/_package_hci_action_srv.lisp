@@ -1,4 +1,6 @@
 (cl:in-package cobot_pump_ros-srv)
-(cl:export '(ACTION-VAL
-          ACTION
+(cl:export '(CHECK-VAL
+          CHECK
+          WAYPOINTS-VAL
+          WAYPOINTS
 ))

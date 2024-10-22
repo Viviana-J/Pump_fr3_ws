@@ -21,24 +21,75 @@
   <!-- Example: -->
   <!-- <url type="website">http://wiki.ros.org/cobot_pump_ros</url> -->
 
-  <author>David Russell</author>
+  <author>vivian</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <depend>roscpp</depend>
-  <depend>message_generation</depend>
-  <depend>libfranka</depend>
-  <depend>control_msgs</depend>
-  <depend>actionlib</depend>
-  <depend>sensor_msgs</depend>
+  <!-- <depend>roscpp</depend>
+  <depend>message_generation</depend> -->
+  <!-- <depend>libfranka</depend> -->
+  <!-- <depend>control_msgs</depend> -->
+  <!-- <depend>actionlib</depend> -->
+  <!-- <depend>sensor_msgs</depend> -->
   <depend>xmlrpcpp</depend>
-  <depend>actionlib_msgs</depend>
-  <depend>rospy</depend>
-  <depend>std_msgs</depend>
+  <!-- <depend>actionlib_msgs</depend> -->
+  <!-- <depend>rospy</depend>
+  <depend>std_msgs</depend> -->
 
   <exec_depend>message_runtime</exec_depend>
   <build_export_depend>message_runtime</build_export_depend>
-
+  <build_depend>roscpp</build_depend>
+  <exec_depend>roscpp</exec_depend>
+  <build_depend>rosbag</build_depend>
+  <exec_depend>rosbag</exec_depend>
+  <build_depend>std_msgs</build_depend>
+  <exec_depend>franka_msgs</exec_depend>
+  <build_depend>franka_msgs</build_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <build_depend>rospy</build_depend>
+  <exec_depend>rospy</exec_depend>
+  <build_depend>control_msgs</build_depend>
+  <exec_depend>control_msgs</exec_depend>  
+  <!-- <build_depend>ros_bag</build_depend>
+  <exec_depend>ros_bag</exec_depend>  -->
+  <build_depend>tf2</build_depend>
+  <exec_depend>tf2</exec_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <build_depend>moveit_ros_move_group</build_depend>
+  <exec_depend>moveit_ros_move_group</exec_depend>
+  <build_depend>moveit_msgs</build_depend>
+  <exec_depend>moveit_msgs</exec_depend>
+  <build_depend>moveit_core</build_depend>
+  <build_depend>moveit_ros_planning</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <exec_depend>moveit_core</exec_depend>
+  <exec_depend>moveit_ros_planning</exec_depend>
+  <exec_depend>moveit_ros_planning_interface</exec_depend>
+  <!-- <build_depend>geometric_shapes</build_depend>
+  <exec_depend>geometric_shapes</exec_depend> -->
+  <build_depend>franka_description</build_depend>
+  <exec_depend>franka_description</exec_depend>
+  <build_depend>franka_gripper</build_depend>
+  <exec_depend>franka_gripper</exec_depend>
+  <build_depend>moveit_visual_tools</build_depend>
+  <exec_depend>moveit_visual_tools</exec_depend>
+  <build_depend>actionlib</build_depend>
+  <exec_depend>actionlib</exec_depend>
+  <build_depend>shape_msgs</build_depend>
+  <exec_depend>shape_msgs</exec_depend>
+  <build_depend>cv_bridge</build_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <build_depend>message_filters</build_depend>
+  <exec_depend>message_filters</exec_depend>
+  <build_depend>array</build_depend>
+  <exec_depend>array</exec_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>

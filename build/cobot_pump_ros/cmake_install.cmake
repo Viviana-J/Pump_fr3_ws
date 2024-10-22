@@ -38,6 +38,10 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cobot_pump_ros/msg" TYPE FILE FILES "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cobot_pump_ros/srv" TYPE FILE FILES
     "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/startPump.srv"
     "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/stopPump.srv"

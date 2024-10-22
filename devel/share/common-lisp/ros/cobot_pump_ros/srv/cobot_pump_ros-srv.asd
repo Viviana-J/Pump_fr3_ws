@@ -2,7 +2,8 @@
 (cl:in-package :asdf)
 
 (defsystem "cobot_pump_ros-srv"
-  :depends-on (:roslisp-msg-protocol :roslisp-utils )
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :cobot_pump_ros-msg
+)
   :components ((:file "_package")
     (:file "checkItemAttached" :depends-on ("_package_checkItemAttached"))
     (:file "_package_checkItemAttached" :depends-on ("_package"))

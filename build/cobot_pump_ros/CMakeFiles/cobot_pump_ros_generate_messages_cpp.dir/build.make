@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /home/rishabh/Robot/Pump_fr3_ws/build
 # Include the progress variables for this target.
 include cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_cpp.dir/progress.make
 
+cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_cpp: /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/waypoint.h
 cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_cpp: /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/startPump.h
 cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_cpp: /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/stopPump.h
 cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_cpp: /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/dropItem.h
@@ -61,49 +62,63 @@ cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_cpp: /home/rishabh/Ro
 cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_cpp: /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/hci_action_srv.h
 
 
+/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/waypoint.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/waypoint.h: /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg
+/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/waypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/waypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/waypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/waypoint.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from cobot_pump_ros/waypoint.msg"
+	cd /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros && /home/rishabh/Robot/Pump_fr3_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg -Icobot_pump_ros:/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p cobot_pump_ros -o /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros -e /opt/ros/noetic/share/gencpp/cmake/..
+
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/startPump.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/startPump.h: /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/startPump.srv
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/startPump.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/startPump.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from cobot_pump_ros/startPump.srv"
-	cd /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros && /home/rishabh/Robot/Pump_fr3_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/startPump.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p cobot_pump_ros -o /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros -e /opt/ros/noetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from cobot_pump_ros/startPump.srv"
+	cd /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros && /home/rishabh/Robot/Pump_fr3_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/startPump.srv -Icobot_pump_ros:/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p cobot_pump_ros -o /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/stopPump.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/stopPump.h: /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/stopPump.srv
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/stopPump.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/stopPump.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from cobot_pump_ros/stopPump.srv"
-	cd /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros && /home/rishabh/Robot/Pump_fr3_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/stopPump.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p cobot_pump_ros -o /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros -e /opt/ros/noetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from cobot_pump_ros/stopPump.srv"
+	cd /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros && /home/rishabh/Robot/Pump_fr3_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/stopPump.srv -Icobot_pump_ros:/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p cobot_pump_ros -o /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/dropItem.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/dropItem.h: /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/dropItem.srv
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/dropItem.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/dropItem.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from cobot_pump_ros/dropItem.srv"
-	cd /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros && /home/rishabh/Robot/Pump_fr3_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/dropItem.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p cobot_pump_ros -o /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros -e /opt/ros/noetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from cobot_pump_ros/dropItem.srv"
+	cd /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros && /home/rishabh/Robot/Pump_fr3_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/dropItem.srv -Icobot_pump_ros:/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p cobot_pump_ros -o /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/readState.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/readState.h: /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/readState.srv
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/readState.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/readState.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from cobot_pump_ros/readState.srv"
-	cd /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros && /home/rishabh/Robot/Pump_fr3_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/readState.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p cobot_pump_ros -o /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros -e /opt/ros/noetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from cobot_pump_ros/readState.srv"
+	cd /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros && /home/rishabh/Robot/Pump_fr3_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/readState.srv -Icobot_pump_ros:/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p cobot_pump_ros -o /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/checkItemAttached.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/checkItemAttached.h: /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/checkItemAttached.srv
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/checkItemAttached.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/checkItemAttached.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from cobot_pump_ros/checkItemAttached.srv"
-	cd /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros && /home/rishabh/Robot/Pump_fr3_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/checkItemAttached.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p cobot_pump_ros -o /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros -e /opt/ros/noetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from cobot_pump_ros/checkItemAttached.srv"
+	cd /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros && /home/rishabh/Robot/Pump_fr3_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/checkItemAttached.srv -Icobot_pump_ros:/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p cobot_pump_ros -o /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/hci_action_srv.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/hci_action_srv.h: /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/hci_action_srv.srv
+/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/hci_action_srv.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/hci_action_srv.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/hci_action_srv.h: /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg
+/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/hci_action_srv.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/hci_action_srv.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/hci_action_srv.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from cobot_pump_ros/hci_action_srv.srv"
-	cd /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros && /home/rishabh/Robot/Pump_fr3_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/hci_action_srv.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p cobot_pump_ros -o /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros -e /opt/ros/noetic/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rishabh/Robot/Pump_fr3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from cobot_pump_ros/hci_action_srv.srv"
+	cd /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros && /home/rishabh/Robot/Pump_fr3_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/hci_action_srv.srv -Icobot_pump_ros:/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p cobot_pump_ros -o /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros -e /opt/ros/noetic/share/gencpp/cmake/..
 
 cobot_pump_ros_generate_messages_cpp: cobot_pump_ros/CMakeFiles/cobot_pump_ros_generate_messages_cpp
+cobot_pump_ros_generate_messages_cpp: /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/waypoint.h
 cobot_pump_ros_generate_messages_cpp: /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/startPump.h
 cobot_pump_ros_generate_messages_cpp: /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/stopPump.h
 cobot_pump_ros_generate_messages_cpp: /home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/dropItem.h

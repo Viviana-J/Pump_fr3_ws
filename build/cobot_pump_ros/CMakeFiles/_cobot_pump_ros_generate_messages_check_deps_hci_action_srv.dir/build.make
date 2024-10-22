@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/rishabh/Robot/Pump_fr3_ws/build
 include cobot_pump_ros/CMakeFiles/_cobot_pump_ros_generate_messages_check_deps_hci_action_srv.dir/progress.make
 
 cobot_pump_ros/CMakeFiles/_cobot_pump_ros_generate_messages_check_deps_hci_action_srv:
-	cd /home/rishabh/Robot/Pump_fr3_ws/build/cobot_pump_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py cobot_pump_ros /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/hci_action_srv.srv 
+	cd /home/rishabh/Robot/Pump_fr3_ws/build/cobot_pump_ros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py cobot_pump_ros /home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/hci_action_srv.srv geometry_msgs/Point:geometry_msgs/Pose:cobot_pump_ros/waypoint:geometry_msgs/Quaternion
 
 _cobot_pump_ros_generate_messages_check_deps_hci_action_srv: cobot_pump_ros/CMakeFiles/_cobot_pump_ros_generate_messages_check_deps_hci_action_srv
 _cobot_pump_ros_generate_messages_check_deps_hci_action_srv: cobot_pump_ros/CMakeFiles/_cobot_pump_ros_generate_messages_check_deps_hci_action_srv.dir/build.make

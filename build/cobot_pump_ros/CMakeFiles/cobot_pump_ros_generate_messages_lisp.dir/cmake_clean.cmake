@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "/home/rishabh/Robot/Pump_fr3_ws/devel/share/common-lisp/ros/cobot_pump_ros/msg/waypoint.lisp"
   "/home/rishabh/Robot/Pump_fr3_ws/devel/share/common-lisp/ros/cobot_pump_ros/srv/checkItemAttached.lisp"
   "/home/rishabh/Robot/Pump_fr3_ws/devel/share/common-lisp/ros/cobot_pump_ros/srv/dropItem.lisp"
   "/home/rishabh/Robot/Pump_fr3_ws/devel/share/common-lisp/ros/cobot_pump_ros/srv/hci_action_srv.lisp"

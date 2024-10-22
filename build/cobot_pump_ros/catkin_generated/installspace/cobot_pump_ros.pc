@@ -5,4 +5,4 @@ Description: Description of cobot_pump_ros
 Version: 0.0.0
 Cflags: -I${prefix}/include -I/usr/include
 Libs: -L${prefix}/lib -lfranka_gripper /usr/lib/libfranka.so.0.13.3
-Requires: roscpp message_runtime control_msgs sensor_msgs xmlrpcpp std_msgs
+Requires: control_msgs xmlrpcpp rosbag std_msgs geometry_msgs roscpp rospy tf2 cv_bridge moveit_msgs moveit_core moveit_ros_planning moveit_ros_planning_interface moveit_ros_move_group message_runtime franka_msgs franka_description franka_gripper actionlib moveit_visual_tools shape_msgs sensor_msgs message_filters array

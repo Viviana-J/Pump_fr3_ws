@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/readState.h"
   "/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/startPump.h"
   "/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/stopPump.h"
+  "/home/rishabh/Robot/Pump_fr3_ws/devel/include/cobot_pump_ros/waypoint.h"
   "CMakeFiles/cobot_pump_ros_generate_messages_cpp"
 )
 

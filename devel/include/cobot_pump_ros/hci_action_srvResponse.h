@@ -15,6 +15,7 @@
 #include <ros/builtin_message_traits.h>
 #include <ros/message_operations.h>
 
+#include <cobot_pump_ros/waypoint.h>
 
 namespace cobot_pump_ros
 {
@@ -24,19 +25,17 @@ struct hci_action_srvResponse_
   typedef hci_action_srvResponse_<ContainerAllocator> Type;
 
   hci_action_srvResponse_()
-    : action()  {
-      action.assign(0.0);
-  }
+    : waypoints()  {
+    }
   hci_action_srvResponse_(const ContainerAllocator& _alloc)
-    : action()  {
+    : waypoints(_alloc)  {
   (void)_alloc;
-      action.assign(0.0);
-  }
+    }
 
 
 
-   typedef boost::array<float, 7>  _action_type;
-  _action_type action;
+   typedef std::vector< ::cobot_pump_ros::waypoint_<ContainerAllocator> , typename std::allocator_traits<ContainerAllocator>::template rebind_alloc< ::cobot_pump_ros::waypoint_<ContainerAllocator> >> _waypoints_type;
+  _waypoints_type waypoints;
 
 
 
@@ -67,7 +66,7 @@ return s;
 template<typename ContainerAllocator1, typename ContainerAllocator2>
 bool operator==(const ::cobot_pump_ros::hci_action_srvResponse_<ContainerAllocator1> & lhs, const ::cobot_pump_ros::hci_action_srvResponse_<ContainerAllocator2> & rhs)
 {
-  return lhs.action == rhs.action;
+  return lhs.waypoints == rhs.waypoints;
 }
 
 template<typename ContainerAllocator1, typename ContainerAllocator2>
@@ -100,12 +99,12 @@ struct IsMessage< ::cobot_pump_ros::hci_action_srvResponse_<ContainerAllocator> 
 
 template <class ContainerAllocator>
 struct IsFixedSize< ::cobot_pump_ros::hci_action_srvResponse_<ContainerAllocator> >
-  : TrueType
+  : FalseType
   { };
 
 template <class ContainerAllocator>
 struct IsFixedSize< ::cobot_pump_ros::hci_action_srvResponse_<ContainerAllocator> const>
-  : TrueType
+  : FalseType
   { };
 
 template <class ContainerAllocator>
@@ -124,12 +123,12 @@ struct MD5Sum< ::cobot_pump_ros::hci_action_srvResponse_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "c43a3220bfd54c72b40a7f1b9339aa4f";
+    return "c700632b90a1c5ce1f9540e757918e84";
   }
 
   static const char* value(const ::cobot_pump_ros::hci_action_srvResponse_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0xc43a3220bfd54c72ULL;
-  static const uint64_t static_value2 = 0xb40a7f1b9339aa4fULL;
+  static const uint64_t static_value1 = 0xc700632b90a1c5ceULL;
+  static const uint64_t static_value2 = 0x1f9540e757918e84ULL;
 };
 
 template<class ContainerAllocator>
@@ -148,7 +147,33 @@ struct Definition< ::cobot_pump_ros::hci_action_srvResponse_<ContainerAllocator>
 {
   static const char* value()
   {
-    return "float32[7] action\n"
+    return "cobot_pump_ros/waypoint[] waypoints\n"
+"\n"
+"================================================================================\n"
+"MSG: cobot_pump_ros/waypoint\n"
+"geometry_msgs/Pose pose\n"
+"bool franka_gripper\n"
+"================================================================================\n"
+"MSG: geometry_msgs/Pose\n"
+"# A representation of pose in free space, composed of position and orientation. \n"
+"Point position\n"
+"Quaternion orientation\n"
+"\n"
+"================================================================================\n"
+"MSG: geometry_msgs/Point\n"
+"# This contains the position of a point in free space\n"
+"float64 x\n"
+"float64 y\n"
+"float64 z\n"
+"\n"
+"================================================================================\n"
+"MSG: geometry_msgs/Quaternion\n"
+"# This represents an orientation in free space in quaternion form.\n"
+"\n"
+"float64 x\n"
+"float64 y\n"
+"float64 z\n"
+"float64 w\n"
 ;
   }
 
@@ -167,7 +192,7 @@ namespace serialization
   {
     template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)
     {
-      stream.next(m.action);
+      stream.next(m.waypoints);
     }
 
     ROS_DECLARE_ALLINONE_SERIALIZER
@@ -186,11 +211,13 @@ struct Printer< ::cobot_pump_ros::hci_action_srvResponse_<ContainerAllocator> >
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::cobot_pump_ros::hci_action_srvResponse_<ContainerAllocator>& v)
   {
-    s << indent << "action[]" << std::endl;
-    for (size_t i = 0; i < v.action.size(); ++i)
+    s << indent << "waypoints[]" << std::endl;
+    for (size_t i = 0; i < v.waypoints.size(); ++i)
     {
-      s << indent << "  action[" << i << "]: ";
-      Printer<float>::stream(s, indent + "  ", v.action[i]);
+      s << indent << "  waypoints[" << i << "]: ";
+      s << std::endl;
+      s << indent;
+      Printer< ::cobot_pump_ros::waypoint_<ContainerAllocator> >::stream(s, indent + "    ", v.waypoints[i]);
     }
   }
 };

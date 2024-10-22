@@ -1,8 +1,8 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "cobot_pump_ros: 0 messages, 6 services")
+message(STATUS "cobot_pump_ros: 1 messages, 6 services")
 
-set(MSG_I_FLAGS "-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Icobot_pump_ros:/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -16,6 +16,11 @@ add_custom_target(cobot_pump_ros_generate_messages ALL)
 # verify that message/service dependencies have not changed since configure
 
 
+
+get_filename_component(_filename "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg" NAME_WE)
+add_custom_target(_cobot_pump_ros_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "cobot_pump_ros" "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg" "geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/Quaternion"
+)
 
 get_filename_component(_filename "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/startPump.srv" NAME_WE)
 add_custom_target(_cobot_pump_ros_generate_messages_check_deps_${_filename}
@@ -44,7 +49,7 @@ add_custom_target(_cobot_pump_ros_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/hci_action_srv.srv" NAME_WE)
 add_custom_target(_cobot_pump_ros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "cobot_pump_ros" "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/hci_action_srv.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "cobot_pump_ros" "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/hci_action_srv.srv" "geometry_msgs/Point:geometry_msgs/Pose:cobot_pump_ros/waypoint:geometry_msgs/Quaternion"
 )
 
 #
@@ -53,6 +58,12 @@ add_custom_target(_cobot_pump_ros_generate_messages_check_deps_${_filename}
 
 ### Section generating for lang: gencpp
 ### Generating Messages
+_generate_msg_cpp(cobot_pump_ros
+  "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/cobot_pump_ros
+)
 
 ### Generating Services
 _generate_srv_cpp(cobot_pump_ros
@@ -88,7 +99,7 @@ _generate_srv_cpp(cobot_pump_ros
 _generate_srv_cpp(cobot_pump_ros
   "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/hci_action_srv.srv"
   "${MSG_I_FLAGS}"
-  ""
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/cobot_pump_ros
 )
 
@@ -104,6 +115,8 @@ add_custom_target(cobot_pump_ros_generate_messages_cpp
 add_dependencies(cobot_pump_ros_generate_messages cobot_pump_ros_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg" NAME_WE)
+add_dependencies(cobot_pump_ros_generate_messages_cpp _cobot_pump_ros_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/startPump.srv" NAME_WE)
 add_dependencies(cobot_pump_ros_generate_messages_cpp _cobot_pump_ros_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/stopPump.srv" NAME_WE)
@@ -126,6 +139,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS cobot_pump_ros_generate_messages_cp
 
 ### Section generating for lang: geneus
 ### Generating Messages
+_generate_msg_eus(cobot_pump_ros
+  "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/cobot_pump_ros
+)
 
 ### Generating Services
 _generate_srv_eus(cobot_pump_ros
@@ -161,7 +180,7 @@ _generate_srv_eus(cobot_pump_ros
 _generate_srv_eus(cobot_pump_ros
   "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/hci_action_srv.srv"
   "${MSG_I_FLAGS}"
-  ""
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/cobot_pump_ros
 )
 
@@ -177,6 +196,8 @@ add_custom_target(cobot_pump_ros_generate_messages_eus
 add_dependencies(cobot_pump_ros_generate_messages cobot_pump_ros_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg" NAME_WE)
+add_dependencies(cobot_pump_ros_generate_messages_eus _cobot_pump_ros_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/startPump.srv" NAME_WE)
 add_dependencies(cobot_pump_ros_generate_messages_eus _cobot_pump_ros_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/stopPump.srv" NAME_WE)
@@ -199,6 +220,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS cobot_pump_ros_generate_messages_eu
 
 ### Section generating for lang: genlisp
 ### Generating Messages
+_generate_msg_lisp(cobot_pump_ros
+  "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/cobot_pump_ros
+)
 
 ### Generating Services
 _generate_srv_lisp(cobot_pump_ros
@@ -234,7 +261,7 @@ _generate_srv_lisp(cobot_pump_ros
 _generate_srv_lisp(cobot_pump_ros
   "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/hci_action_srv.srv"
   "${MSG_I_FLAGS}"
-  ""
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/cobot_pump_ros
 )
 
@@ -250,6 +277,8 @@ add_custom_target(cobot_pump_ros_generate_messages_lisp
 add_dependencies(cobot_pump_ros_generate_messages cobot_pump_ros_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg" NAME_WE)
+add_dependencies(cobot_pump_ros_generate_messages_lisp _cobot_pump_ros_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/startPump.srv" NAME_WE)
 add_dependencies(cobot_pump_ros_generate_messages_lisp _cobot_pump_ros_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/stopPump.srv" NAME_WE)
@@ -272,6 +301,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS cobot_pump_ros_generate_messages_li
 
 ### Section generating for lang: gennodejs
 ### Generating Messages
+_generate_msg_nodejs(cobot_pump_ros
+  "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/cobot_pump_ros
+)
 
 ### Generating Services
 _generate_srv_nodejs(cobot_pump_ros
@@ -307,7 +342,7 @@ _generate_srv_nodejs(cobot_pump_ros
 _generate_srv_nodejs(cobot_pump_ros
   "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/hci_action_srv.srv"
   "${MSG_I_FLAGS}"
-  ""
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/cobot_pump_ros
 )
 
@@ -323,6 +358,8 @@ add_custom_target(cobot_pump_ros_generate_messages_nodejs
 add_dependencies(cobot_pump_ros_generate_messages cobot_pump_ros_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg" NAME_WE)
+add_dependencies(cobot_pump_ros_generate_messages_nodejs _cobot_pump_ros_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/startPump.srv" NAME_WE)
 add_dependencies(cobot_pump_ros_generate_messages_nodejs _cobot_pump_ros_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/stopPump.srv" NAME_WE)
@@ -345,6 +382,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS cobot_pump_ros_generate_messages_no
 
 ### Section generating for lang: genpy
 ### Generating Messages
+_generate_msg_py(cobot_pump_ros
+  "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/cobot_pump_ros
+)
 
 ### Generating Services
 _generate_srv_py(cobot_pump_ros
@@ -380,7 +423,7 @@ _generate_srv_py(cobot_pump_ros
 _generate_srv_py(cobot_pump_ros
   "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/hci_action_srv.srv"
   "${MSG_I_FLAGS}"
-  ""
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/cobot_pump_ros
 )
 
@@ -396,6 +439,8 @@ add_custom_target(cobot_pump_ros_generate_messages_py
 add_dependencies(cobot_pump_ros_generate_messages cobot_pump_ros_generate_messages_py)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/msg/waypoint.msg" NAME_WE)
+add_dependencies(cobot_pump_ros_generate_messages_py _cobot_pump_ros_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/startPump.srv" NAME_WE)
 add_dependencies(cobot_pump_ros_generate_messages_py _cobot_pump_ros_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/rishabh/Robot/Pump_fr3_ws/src/cobot_pump_ros/srv/stopPump.srv" NAME_WE)
@@ -428,6 +473,9 @@ endif()
 if(TARGET std_msgs_generate_messages_cpp)
   add_dependencies(cobot_pump_ros_generate_messages_cpp std_msgs_generate_messages_cpp)
 endif()
+if(TARGET geometry_msgs_generate_messages_cpp)
+  add_dependencies(cobot_pump_ros_generate_messages_cpp geometry_msgs_generate_messages_cpp)
+endif()
 
 if(geneus_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/cobot_pump_ros)
   # install generated code
@@ -438,6 +486,9 @@ if(geneus_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/co
 endif()
 if(TARGET std_msgs_generate_messages_eus)
   add_dependencies(cobot_pump_ros_generate_messages_eus std_msgs_generate_messages_eus)
+endif()
+if(TARGET geometry_msgs_generate_messages_eus)
+  add_dependencies(cobot_pump_ros_generate_messages_eus geometry_msgs_generate_messages_eus)
 endif()
 
 if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/cobot_pump_ros)
@@ -450,6 +501,9 @@ endif()
 if(TARGET std_msgs_generate_messages_lisp)
   add_dependencies(cobot_pump_ros_generate_messages_lisp std_msgs_generate_messages_lisp)
 endif()
+if(TARGET geometry_msgs_generate_messages_lisp)
+  add_dependencies(cobot_pump_ros_generate_messages_lisp geometry_msgs_generate_messages_lisp)
+endif()
 
 if(gennodejs_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/cobot_pump_ros)
   # install generated code
@@ -460,6 +514,9 @@ if(gennodejs_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_D
 endif()
 if(TARGET std_msgs_generate_messages_nodejs)
   add_dependencies(cobot_pump_ros_generate_messages_nodejs std_msgs_generate_messages_nodejs)
+endif()
+if(TARGET geometry_msgs_generate_messages_nodejs)
+  add_dependencies(cobot_pump_ros_generate_messages_nodejs geometry_msgs_generate_messages_nodejs)
 endif()
 
 if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/cobot_pump_ros)
@@ -472,4 +529,7 @@ if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/cobo
 endif()
 if(TARGET std_msgs_generate_messages_py)
   add_dependencies(cobot_pump_ros_generate_messages_py std_msgs_generate_messages_py)
+endif()
+if(TARGET geometry_msgs_generate_messages_py)
+  add_dependencies(cobot_pump_ros_generate_messages_py geometry_msgs_generate_messages_py)
 endif()

@@ -14,6 +14,7 @@ const _getByteLength = _ros_msg_utils.getByteLength;
 
 //-----------------------------------------------------------
 
+let waypoint = require('../msg/waypoint.js');
 
 //-----------------------------------------------------------
 
@@ -21,13 +22,22 @@ class hci_action_srvRequest {
   constructor(initObj={}) {
     if (initObj === null) {
       // initObj === null is a special case for deserialization where we don't initialize fields
+      this.check = null;
     }
     else {
+      if (initObj.hasOwnProperty('check')) {
+        this.check = initObj.check
+      }
+      else {
+        this.check = false;
+      }
     }
   }
 
   static serialize(obj, buffer, bufferOffset) {
     // Serializes a message object of type hci_action_srvRequest
+    // Serialize message field [check]
+    bufferOffset = _serializer.bool(obj.check, buffer, bufferOffset);
     return bufferOffset;
   }
 
@@ -35,11 +45,13 @@ class hci_action_srvRequest {
     //deserializes a message object of type hci_action_srvRequest
     let len;
     let data = new hci_action_srvRequest(null);
+    // Deserialize message field [check]
+    data.check = _deserializer.bool(buffer, bufferOffset);
     return data;
   }
 
   static getMessageSize(object) {
-    return 0;
+    return 1;
   }
 
   static datatype() {
@@ -49,12 +61,13 @@ class hci_action_srvRequest {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return 'd41d8cd98f00b204e9800998ecf8427e';
+    return 'c5df00fea9d1f39520fa0345cbde1b26';
   }
 
   static messageDefinition() {
     // Returns full string definition for message
     return `
+    bool check
     
     `;
   }
@@ -65,6 +78,13 @@ class hci_action_srvRequest {
       msg = {};
     }
     const resolved = new hci_action_srvRequest(null);
+    if (msg.check !== undefined) {
+      resolved.check = msg.check;
+    }
+    else {
+      resolved.check = false
+    }
+
     return resolved;
     }
 };
@@ -73,26 +93,26 @@ class hci_action_srvResponse {
   constructor(initObj={}) {
     if (initObj === null) {
       // initObj === null is a special case for deserialization where we don't initialize fields
-      this.action = null;
+      this.waypoints = null;
     }
     else {
-      if (initObj.hasOwnProperty('action')) {
-        this.action = initObj.action
+      if (initObj.hasOwnProperty('waypoints')) {
+        this.waypoints = initObj.waypoints
       }
       else {
-        this.action = new Array(7).fill(0);
+        this.waypoints = [];
       }
     }
   }
 
   static serialize(obj, buffer, bufferOffset) {
     // Serializes a message object of type hci_action_srvResponse
-    // Check that the constant length array field [action] has the right length
-    if (obj.action.length !== 7) {
-      throw new Error('Unable to serialize array field action - length must be 7')
-    }
-    // Serialize message field [action]
-    bufferOffset = _arraySerializer.float32(obj.action, buffer, bufferOffset, 7);
+    // Serialize message field [waypoints]
+    // Serialize the length for message field [waypoints]
+    bufferOffset = _serializer.uint32(obj.waypoints.length, buffer, bufferOffset);
+    obj.waypoints.forEach((val) => {
+      bufferOffset = waypoint.serialize(val, buffer, bufferOffset);
+    });
     return bufferOffset;
   }
 
@@ -100,13 +120,20 @@ class hci_action_srvResponse {
     //deserializes a message object of type hci_action_srvResponse
     let len;
     let data = new hci_action_srvResponse(null);
-    // Deserialize message field [action]
-    data.action = _arrayDeserializer.float32(buffer, bufferOffset, 7)
+    // Deserialize message field [waypoints]
+    // Deserialize array length for message field [waypoints]
+    len = _deserializer.uint32(buffer, bufferOffset);
+    data.waypoints = new Array(len);
+    for (let i = 0; i < len; ++i) {
+      data.waypoints[i] = waypoint.deserialize(buffer, bufferOffset)
+    }
     return data;
   }
 
   static getMessageSize(object) {
-    return 28;
+    let length = 0;
+    length += 57 * object.waypoints.length;
+    return length + 4;
   }
 
   static datatype() {
@@ -116,13 +143,39 @@ class hci_action_srvResponse {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return 'c43a3220bfd54c72b40a7f1b9339aa4f';
+    return 'c700632b90a1c5ce1f9540e757918e84';
   }
 
   static messageDefinition() {
     // Returns full string definition for message
     return `
-    float32[7] action
+    cobot_pump_ros/waypoint[] waypoints
+    
+    ================================================================================
+    MSG: cobot_pump_ros/waypoint
+    geometry_msgs/Pose pose
+    bool franka_gripper
+    ================================================================================
+    MSG: geometry_msgs/Pose
+    # A representation of pose in free space, composed of position and orientation. 
+    Point position
+    Quaternion orientation
+    
+    ================================================================================
+    MSG: geometry_msgs/Point
+    # This contains the position of a point in free space
+    float64 x
+    float64 y
+    float64 z
+    
+    ================================================================================
+    MSG: geometry_msgs/Quaternion
+    # This represents an orientation in free space in quaternion form.
+    
+    float64 x
+    float64 y
+    float64 z
+    float64 w
     
     `;
   }
@@ -133,11 +186,14 @@ class hci_action_srvResponse {
       msg = {};
     }
     const resolved = new hci_action_srvResponse(null);
-    if (msg.action !== undefined) {
-      resolved.action = msg.action;
+    if (msg.waypoints !== undefined) {
+      resolved.waypoints = new Array(msg.waypoints.length);
+      for (let i = 0; i < resolved.waypoints.length; ++i) {
+        resolved.waypoints[i] = waypoint.Resolve(msg.waypoints[i]);
+      }
     }
     else {
-      resolved.action = new Array(7).fill(0)
+      resolved.waypoints = []
     }
 
     return resolved;
@@ -147,6 +203,6 @@ class hci_action_srvResponse {
 module.exports = {
   Request: hci_action_srvRequest,
   Response: hci_action_srvResponse,
-  md5sum() { return 'c43a3220bfd54c72b40a7f1b9339aa4f'; },
+  md5sum() { return '8459cc57e480624d25da434fe579e7c3'; },
   datatype() { return 'cobot_pump_ros/hci_action_srv'; }
 };

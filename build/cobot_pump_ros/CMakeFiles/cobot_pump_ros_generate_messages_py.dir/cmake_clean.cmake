@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "/home/rishabh/Robot/Pump_fr3_ws/devel/lib/python3/dist-packages/cobot_pump_ros/msg/__init__.py"
+  "/home/rishabh/Robot/Pump_fr3_ws/devel/lib/python3/dist-packages/cobot_pump_ros/msg/_waypoint.py"
   "/home/rishabh/Robot/Pump_fr3_ws/devel/lib/python3/dist-packages/cobot_pump_ros/srv/__init__.py"
   "/home/rishabh/Robot/Pump_fr3_ws/devel/lib/python3/dist-packages/cobot_pump_ros/srv/_checkItemAttached.py"
   "/home/rishabh/Robot/Pump_fr3_ws/devel/lib/python3/dist-packages/cobot_pump_ros/srv/_dropItem.py"
